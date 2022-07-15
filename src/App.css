@@ -1,0 +1,45 @@
+.detail {
+    border-style: solid;
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+}
+.detail > * {
+    margin: 0 auto;
+}
+.container {
+    width: 60%;
+    height: 95%;
+    margin: 0 auto;
+    font-family: 'Segoe UI';
+    border-color: rgb(0, 0, 0);
+    border-radius: 4px;
+    background-color: rgb(255, 255, 255);
+}
+.btn-submit {
+    width: 70px;
+    height: 40px;
+    border-radius: 4px;
+    font-family: 'Segoe UI';
+    color: rgb(216, 212, 212);
+    background-color: black;
+}
+.btn-submit:hover, .btn-submit:active {
+    color: white;
+}
+.input-lookup {
+    font-family: 'Segoe UI';
+    height: 30px;
+    border-radius: 4px;
+    width: 95%;
+    border-color: rgb(225, 224, 224);
+}
+.select-filter {
+    font-family: 'Segoe UI';
+    height: 30px;
+    border-color: rgb(225, 224, 224);
+    border-radius: 4px;
+}
+.option-edge {
+    border-radius: 0px 0px 4px 4px;
+}
